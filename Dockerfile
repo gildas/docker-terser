@@ -1,6 +1,9 @@
 FROM node:12-alpine
-LABEL maintainer="Gildas Cherruel <gildas@breizh.org>"
-LABEL version="1.0.0"
+LABEL org.opencontainers.image.title="terser"
+LABEL org.opencontainers.image.description="Javascript manger and compressor toolkit for ES6+"
+LABEL org.opencontainers.image.authors="Gildas Cherruel <gildas.cherruel@genesys.com>"
+LABEL org.opencontainers.image.version="1.0.1"
+LABEL org.opencontainers.image.licenses="MIT"
 
 RUN npm install -g terser \
     && npm cache clean --force
