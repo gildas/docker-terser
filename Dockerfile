@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:18-alpine
 LABEL org.opencontainers.image.title="terser"
 LABEL org.opencontainers.image.description="Javascript manger and compressor toolkit for ES6+"
 LABEL org.opencontainers.image.authors="Gildas Cherruel <gildas.cherruel@genesys.com>"
